@@ -1,0 +1,22 @@
+[core]
+	excludesfile = /Users/ben/.gitignore_global
+	editor = code --wait
+	autocrlf = input
+[difftool "sourcetree"]
+	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+	path = 
+[mergetool "sourcetree"]
+	cmd = /Applications/Sourcetree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+	trustExitCode = true
+[user]
+	name = Ben Paget
+	email = 17719054+MyElectricSheep@users.noreply.github.com
+	username = MyElectricSheep
+[commit]
+	template = /Users/ben/.stCommitMsg
+[diff]
+	tool = vscode
+[difftool "vscode"]
+	cmd = "code --wait --diff $LOCAL $REMOTE"
+[init]
+	defaultBranch = main
