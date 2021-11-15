@@ -10,10 +10,10 @@ xcode-select --install
 
 ```zsh
 # Use SSH (if set up)...
-git clone git@github.com:eieioxyz/Beyond-Dotfiles-in-100-Seconds.git ~/.dotfiles
+git clone git@github.com:MyElectricSheep/dotfiles.git ~/.dotfiles
 
 # ...or use HTTPS and switch remotes later.
-git clone https://github.com/eieioxyz/Beyond-Dotfiles-in-100-Seconds.git ~/.dotfiles
+git clone https://github.com/MyElectricSheep/dotfiles.git ~/.dotfiles
 ```
 
 3. Create symlinks in the Home directory to the real files in the repo.
@@ -56,7 +56,7 @@ cd ~/.dotfiles && brew bundle
 
 https://www.youtube.com/watch?v=r_MpUP6aKiQ
 
-- create a symbolic link:
+- Create a symbolic link breakdown:
 
 ```zsh
 ln -s ~/.dotfiles/.zshrc ~/.zshrc
