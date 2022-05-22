@@ -1,3 +1,7 @@
+# Ben's Dotfiles
+
+- This is my personal dotfiles setup, and my notes regarding their (re)installation
+
 ## Steps to bootstrap a new Mac
 
 1. Install Apple's Command Line Tools, which are prerequisites for Git and Homebrew.
